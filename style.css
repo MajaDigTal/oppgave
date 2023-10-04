@@ -19,9 +19,12 @@ main {
   background-color: rgb(75, 75, 75);
   border-radius: 5px;
 }
+
 img {
   max-width: 100%;
   border-radius: 40px;
+  border-style: solid;
+  border-color: black;
 }
 div {
   padding: 20px;
@@ -35,4 +38,25 @@ hr {
 h1 {
   font-size: 45px;
   color: black;
+}
+
+i.fas.fa-link {
+  color: rgb(0, 0, 0);
+}
+.ocean::before {
+  content: "";
+  background-image: url(img/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.facts {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
 }
