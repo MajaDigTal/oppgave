@@ -43,16 +43,9 @@ h1 {
 i.fas.fa-link {
   color: rgb(0, 0, 0);
 }
-.ocean::before {
-  content: "";
+.ocean {
   background-image: url(img/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg);
   background-size: cover;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .facts {
